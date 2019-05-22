@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icl.qml</file>
+        <file>icc.qml</file>
+    </qresource>
+</RCC>
