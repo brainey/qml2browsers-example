@@ -1,13 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQuickView>
+#include <QQuickItem>
+#include <QCommandLineParser>
+#include <QDir>
+#include <QResource>
+#include <QQmlContext>
 #include <qtwebengineglobal.h>
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setOrganizationName("QtExamples");
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
-
     QtWebEngine::initialize();
 
     // Initialize and load ICL
